@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle immutable-snippits",
+        "command": "immutable-snippits:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "immutable-snippits",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "immutable-snippits:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
