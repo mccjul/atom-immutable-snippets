@@ -6,13 +6,20 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "immutable-snippits:toggle"
+      "atom-text-editor": [
+        "immutable-snippits:end-line",
+        "immutable-snippits:end-line-comma",
+        "immutable-snippits:end-new-line",
+        "immutable-snippits:wrap-block"
+      ]
   },
-  "repository": "https://github.com/atom/immutable-snippits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccjul/atom-immutable-snippits.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Immutable Snip'
+      'submenu': [
+        {'label': 'End line and return', 'command': 'immutable-snippits:end-new-line'}
+        {'label': 'End line with semicolon', 'command': 'immutable-snippits:end-line'}
+        {'label': 'End line with comma', 'command': 'immutable-snippits:end-line-comma'}
+        {'label': 'Insert or remove block', 'command': 'immutable-snippits:wrap-block'}
+      ]
+    ]
+  }
+]

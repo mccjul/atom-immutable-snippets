@@ -1,0 +1,34 @@
+".source.js":
+    "fromJS statement":
+        prefix: "fjs"
+        body: "const ${1:name} = fromJS(${2:name})"
+    "is statement":
+        prefix: "is"
+        body: "assert(is({1:name}, {2:name}))"
+    "List statement":
+        prefix: "L"
+        body: "const ${1:name} = List(${2:name})"
+    "Map statement":
+        prefix: "M"
+        body: "const ${1:name} = Map(${2:name})"
+    "OrderedMap statement":
+        prefix: "OM"
+        body: "const ${1:name} = OrderedMap(${2:name})"
+    "Set statement":
+        prefix: "Set"
+        body: "const ${1:name} = Set(${2:name})"
+    "OrderedSet statement":
+        prefix: "OS"
+        body: "const ${1:name} = OrderedSet(${2:name})"
+    "Stack statement":
+        prefix: "St"
+        body: "const ${1:name} = Stack(${2:name})"
+    "Record statement":
+        prefix: "R"
+        body: "const ${1:name} = Record(${2:name})"
+    "Sequence statement":
+        prefix: "Seq"
+        body: "const ${1:name} = Seq(${2:name})"
+    "Iterable statement":
+        prefix: "I"
+        body: "const ${1:name} = Iterable(${2:name})"
